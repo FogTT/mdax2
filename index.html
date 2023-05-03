@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="resume, cv">
+    <meta name="discription" content="Это сайт - резюме Виктора Орлова">
+    <title>Victor's Resume</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="info">
+        <img src="avatar.jpg" alt="здесь моя фотка" class="avatar">
+
+        <div class="info-text">
+          
+          <h1>Виктор Орлов</h1>
+
+          <p>Я профессиональный игрок в покер и недоюрист</p>
+
+          <p>
+            Занимался боксом, люблю путешествовать, кошек, шахматы, стейки и
+            моду
+          </p>
+
+          <h4>Список соц. сетей:</h4>
+
+          <a href="https://vk.com/w0rstinme" target="_blank"> VK</a>
+          |
+          <a href="https://www.instagram.com/dafckntorch/" target="_blank">Inst</a>
+          |
+          <a href="https://t.me/w0rstinme" target="_blank">TG</a>
+        </div>
+      </div>
+
+      <div class="card hobbie">
+        <h2><strong>Мои хобби:</strong></h2>
+
+        <ul class="list">
+          <li>Бокс</li>
+          <li>Игры</li>
+          <li>Кулинария</li>
+          <li>Мода</li>
+        </ul>
+      </div>
+
+      <div class="card exp">
+        <h2>Опыт работы</h2>
+
+        <table class="table">
+          <!-- <thead> 
+        <tr>    
+            <th>Название</th>
+            <th>Должность</th>
+            <th>Год</th>
+        </tr>
+         </thead> -->
+          <tbody>
+            <tr>
+              <td>QuickSilver</td>
+              <td>Shop assistant</td>
+              <td>2018-2018</td>
+            </tr>
+
+            <tr>
+              <td>Administration Basman District</td>
+              <td>Lawyer</td>
+              <td>2021-2021</td>
+            </tr>
+            <tr>
+              <td>PokerProAff</td>
+              <td>NL1/2|2/4</td>
+              <td>2022-сейчас</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <form action="/" class="form">
+        <h2>Связаться со мной</h2>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="firstName">Ваше имя:</label>
+            <input type="text" id="firstName" placeholder="Введите имя">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" placeholder="Введите email">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="massage">Ваше сообщение:</label>
+
+          <textarea
+            id="massage" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+        </div>
+
+        <input class="btn" type="submit" value="Отправить">
+      </form>
+
+    </div>
+  </body>
+</html>
